@@ -4,8 +4,8 @@ class Load extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("zcar", "assets/images/zcar");
-        this.load.image("pcar", "assets/images/pcar");
+        this.load.image("zcar", "assets/images/zcar.png");
+        this.load.image("pcar", "assets/images/pcar.png");
         this.load.audio("bgmusic", ["assets/audio/music.mp3"]);
     }
 
